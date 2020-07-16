@@ -1,0 +1,98 @@
+.box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+.material-icons{
+    font-size: 2.4em;
+    cursor: pointer;
+}
+.card{
+    width: 300px;
+}
+.card .card-image .card-title{
+    color: black;
+    font-weight: 400
+}
+.cart{
+    margin-top:40px;
+}
+.collection .collection-item{
+    display: flex;
+}
+.collection-item.avatar .title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ee6e73;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+.collection .collection-item img{
+    width: 150px;
+    margin-right: 25px;
+}
+.item-desc{
+    align-self:center;
+}
+
+.menu {
+    display: flex;
+    BACKGROUND: GRAY;
+     color: white;
+      z-index: 1;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px 0;
+    font-size: 1.5vw;
+     position: fixed;
+      left: 0;
+      top: 120;
+      width: 100%;
+ 
+    align-items: center;
+    border-bottom: 0px solid transparent;
+    list-style-image: none;
+    line-height: 0px;
+    margin-right: 10%;}
+li {
+    
+    float: center;
+    list-style-type: none;
+    list-style-position:inside;
+    margin: 0;
+    padding: 0;
+    display:inline;
+    padding: 0px 20px;
+  
+  }
+  .top {
+    display: flex;
+    BACKGROUND: GRAY;
+    width: 100%;
+    margin: 0px 0;
+   justify-content: center;
+   align-content: center;
+   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   align-items: center;
+   position: sticky;
+
+    
+  }
+  .button {
+    background-color: #060d36; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  html, body {
+    margin: 0;
+    padding: 0;}

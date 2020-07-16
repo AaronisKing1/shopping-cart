@@ -1,0 +1,45 @@
+.menu {
+    display: flex;
+    BACKGROUND: GRAY;
+     color: white;
+      z-index: 1;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px 0;
+    font-size: 30px;
+     position: relative;
+      left: 0;
+      top: 20;
+      width: 100%;
+    font-style: BOLD;
+    align-items: center;
+    border-bottom: 0px solid transparent;
+    list-style-image: none;
+    line-height: 0px;
+    margin-right: 10%;
+  }
+  li {
+    
+    list-style-type: none;
+    list-style-position:inside;
+    margin: 0;
+    padding: 0;
+      display:inline;
+    padding: 0px 40px;
+  
+  }
+  .top {
+    display: flex;
+     BACKGROUND: GRAY;
+    justify-content: center;
+    align-content: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 30px;
+    border-top: 0px solid transparent;
+  padding: 0px 40px;
+    align-items: center;
+    
+  }
